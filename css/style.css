@@ -1,0 +1,30 @@
+* {outline:1px solid rgba(255,0,0,0);}
+.header{
+	padding: 20px;
+	display: inline-block;
+}
+
+.header .col-4{
+	position: relative;
+	left: 170px;
+}
+
+.hero { outline:1px solid rgba(255,0,0,8);
+	background:#333 url("../img/banner.jpg") no-repeat;
+	background-size: contain;
+	color: #FFF;
+}
+.hero span{
+	border: 2px solid #31B404;
+	padding: 3px;
+	border-radius: 10%;
+}
+.cartelera{
+	background-color: #FFFF00;
+}
+.cartelera img{
+	max-width: 100%;
+	height: 250px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
